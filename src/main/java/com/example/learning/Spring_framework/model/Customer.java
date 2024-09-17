@@ -7,11 +7,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Customer {
-    @Autowired
-    public RegularCustomer regularCustomer;
 
     public Customer(){
-//        System.out.println("Customer Initiated!");
+        System.out.println("Customer Initiated!");
     }
 
 //    @PostConstruct
